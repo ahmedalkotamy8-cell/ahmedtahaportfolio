@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Taha | Performance Marketing Leader</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Latin & Arabic Fonts (Inter, Poppins, Cairo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" data-i18n="hero_title">Ahmed <span class="text-gradient">Taha</span></a>
+            <nav class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#contact" class="nav-link btn btn-outline btn-sm" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle">عربي</button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-list">
+            <li><a href="#about" class="mobile-nav-link" data-i18n="nav_about">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link" data-i18n="nav_skills">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link" data-i18n="nav_projects">Projects</a></li>
+            <li><a href="#experience" class="mobile-nav-link" data-i18n="nav_experience">Experience</a></li>
+            <li><a href="#services" class="mobile-nav-link" data-i18n="nav_services">Services</a></li>
+            <li><a href="#contact" class="mobile-nav-link" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-accent"></div>
+            <div class="container hero-container">
+                <div class="hero-content animate-fade-up">
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Hello, I am</p>
+                    <h1 class="hero-title" data-i18n="hero_title">Ahmed <span class="text-gradient">Taha</span></h1>
+                    <h2 class="hero-role" data-i18n="hero_role">Performance Marketing Leader</h2>
+                    <p class="hero-description" data-i18n="hero_desc">
+                        I help businesses turn ad spend into predictable revenue through data-driven performance marketing and full-funnel optimization.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_projects">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper animate-fade-left">
+                    <div class="hero-image-glow"></div>
+                    <img src="assets/profile.png" alt="Ahmed Taha" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="about_title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <p class="lead-text" data-i18n="about_lead">
+                        Performance Marketing Leader with 9+ years of experience across Egypt and GCC markets.
+                    </p>
+                    <p data-i18n="about_desc">
+                        Specialized in scaling campaigns, optimizing ROAS, and building full-funnel strategies. My focus is entirely on identifying bottlenecks in campaigns and turning them into scalable, robust revenue systems. I leverage data-driven insights to maximize ROI and fuel sustainable business growth.
+                    </p>
+                    <div class="about-stats highlight-box">
+                        <div class="stat-item">
+                            <h3 class="stat-number">9+</h3>
+                            <p class="stat-label" data-i18n="about_stat_1_lbl">Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-i18n="about_stat_2_val">GCC & Egypt</h3>
+                            <p class="stat-label" data-i18n="about_stat_2_lbl">Markets Covered</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-i18n="about_stat_3_val">Full-Funnel</h3>
+                            <p class="stat-label" data-i18n="about_stat_3_lbl">Focus Area</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section bg-alt" id="skills">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="skills_title">Core Expertise</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Platforms -->
+                    <div class="skill-card animate-on-scroll stagger-1">
+                        <div class="skill-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                        <h3 class="skill-category" data-i18n="skill_cat_1">Platforms</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-meta"></i> <span>Meta Ads</span></li>
+                            <li><i class="fa-brands fa-google"></i> <span>Google Ads</span></li>
+                            <li><i class="fa-brands fa-tiktok"></i> <span>TikTok Ads</span></li>
+                            <li><i class="fa-brands fa-snapchat"></i> <span>Snapchat Ads</span></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i> <span>LinkedIn Ads</span></li>
+                        </ul>
+                    </div>
+                    <!-- Strategy -->
+                    <div class="skill-card animate-on-scroll stagger-2">
+                        <div class="skill-icon"><i class="fa-solid fa-chess-knight"></i></div>
+                        <h3 class="skill-category" data-i18n="skill_cat_2">Strategy</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_strat_1">Full Funnel Marketing</span></li>
+                            <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_strat_2">Lead Generation</span></li>
+                            <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_strat_3">Campaign Scaling</span></li>
+                            <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_strat_4">Conversion Optimization</span></li>
+                        </ul>
+                    </div>
+                    <!-- Analytics -->
+                    <div class="skill-card animate-on-scroll stagger-3">
+                        <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3 class="skill-category" data-i18n="skill_cat_3">Analytics</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-magnifying-glass-chart"></i> <span>GA4</span></li>
+                            <li><i class="fa-solid fa-tag"></i> <span>Google Tag Manager</span></li>
+                            <li><i class="fa-solid fa-database"></i> <span data-i18n="skill_ana_3">Data Analysis</span></li>
+                            <li><i class="fa-solid fa-file-invoice"></i> <span data-i18n="skill_ana_4">Reporting</span></li>
+                        </ul>
+                    </div>
+                    <!-- Tools -->
+                    <div class="skill-card animate-on-scroll stagger-4">
+                        <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3 class="skill-category" data-i18n="skill_cat_4">Tools</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-table"></i> <span>Excel</span></li>
+                            <li><i class="fa-solid fa-users-gear"></i> <span data-i18n="skill_tool_2">CRM Systems</span></li>
+                            <li><i class="fa-solid fa-robot"></i> <span data-i18n="skill_tool_3">AI Tools</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="proj_title_main">Selected Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card animate-on-scroll stagger-1">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project.png" alt="Real Estate Campaign Scaling" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag" data-i18n="proj_1_tag">Real Estate</span>
+                            <h3 class="project-title" data-i18n="proj_1_title">Campaign Scaling (Fifth Square, Egypt)</h3>
+                            <p class="project-desc" data-i18n="proj_1_desc">
+                                Optimized campaigns for a major real estate project, improving lead quality and generating multi-million revenue through targeted creative and targeting optimization.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card animate-on-scroll stagger-2">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project.png" alt="Healthcare Startup Growth" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag" data-i18n="proj_2_tag">Healthcare App</span>
+                            <h3 class="project-title" data-i18n="proj_2_title">Startup Growth Strategy</h3>
+                            <p class="project-desc" data-i18n="proj_2_desc">
+                                Built a full-funnel marketing strategy from the ground up for a UAE medical startup, successfully achieving consistent daily bookings within 3 months.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card animate-on-scroll stagger-3">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project.png" alt="Multi-Industry Performance" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag" data-i18n="proj_3_tag">E-Commerce & Services</span>
+                            <h3 class="project-title" data-i18n="proj_3_title">Multi-Industry Campaigns</h3>
+                            <p class="project-desc" data-i18n="proj_3_desc">
+                                Managed complex, high-budget campaigns across e-commerce, services, and real estate sectors reliably achieving strong 3–8x ROAS figures.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section bg-alt" id="experience">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="exp_title_main">Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="exp_1_date">2025 – Present</span>
+                            <h3 class="timeline-role" data-i18n="exp_1_role">Digital Marketing Team Leader</h3>
+                            <span class="timeline-company" data-i18n="exp_1_comp">Freelance</span>
+                            <p class="timeline-desc" data-i18n="exp_1_desc">Leading dynamic teams, managing high-budget campaigns, and building end-to-end growth strategies for premium clients.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="exp_2_date">2024 – 2026</span>
+                            <h3 class="timeline-role" data-i18n="exp_2_role">Team Leader</h3>
+                            <span class="timeline-company" data-i18n="exp_2_comp">TARA Agency</span>
+                            <p class="timeline-desc" data-i18n="exp_2_desc">Managed ad budgets of $10K–$15K, delivering strong ROAS and scalable growth strategies across various diverse industries.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="exp_3_date">2024</span>
+                            <h3 class="timeline-role" data-i18n="exp_3_role">Digital Marketing Specialist</h3>
+                            <span class="timeline-company" data-i18n="exp_3_comp">TBM Agency</span>
+                            <p class="timeline-desc" data-i18n="exp_3_desc">Handled performance marketing campaigns across multiple demanding sectors including high-end real estate and fitness brands.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="serv_title_main">What I Do</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <h3 class="service-title" data-i18n="serv_1_title">Performance Marketing Management</h3>
+                        <p class="service-desc" data-i18n="serv_1_desc">End-to-end execution of data-driven campaigns focused strictly on ROI, ROAS, and measurable revenue growth across all paid platforms.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon"><i class="fa-solid fa-funnel-dollar"></i></div>
+                        <h3 class="service-title" data-i18n="serv_2_title">Full Funnel Strategy</h3>
+                        <p class="service-desc" data-i18n="serv_2_desc">Strategic development of customer journeys from awareness to retention, ensuring no money is left on the table at any stage.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon"><i class="fa-solid fa-magnet"></i></div>
+                        <h3 class="service-title" data-i18n="serv_3_title">Lead Generation Systems</h3>
+                        <p class="service-desc" data-i18n="serv_3_desc">Building scalable engines that predictably deliver high-quality, pre-qualified leads directly to your sales teams.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                        <h3 class="service-title" data-i18n="serv_4_title">Campaign Scaling & Optimization</h3>
+                        <p class="service-desc" data-i18n="serv_4_desc">Taking winning campaigns and scaling them profitably by identifying bottlenecks and optimizing creative and targeting metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Objective -->
+        <section class="objective section bg-accent text-center" id="objective">
+            <div class="container">
+                <div class="objective-content animate-on-scroll">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <h2 class="objective-text" data-i18n="obj_text">
+                        "To help ambitious businesses scale through predictable, data-driven marketing systems that generate sustainable revenue growth."
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <h2 class="section-title" data-i18n="contact_title">Let's Connect</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info animate-on-scroll">
+                        <h3 data-i18n="contact_sub">Ready to scale your business?</h3>
+                        <p data-i18n="contact_desc">Let's discuss how we can build a data-driven strategy tailored to your growth objectives.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>ahmedalkotamy8@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span data-i18n="contact_loc">Egypt & GCC</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/instructorahmedtaha/" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form animate-on-scroll" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="form_name">Name</label>
+                            <input type="text" id="name" placeholder="Name" data-i18n="form_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="form_email">Email</label>
+                            <input type="email" id="email" placeholder="Email" data-i18n="form_email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="form_msg">Message</label>
+                            <textarea id="message" rows="5" placeholder="Message" data-i18n="form_msg" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="form_btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo" data-i18n="hero_title">Ahmed <span>Taha</span></a>
+                <p data-i18n="footer_role">Performance Marketing Leader</p>
+            </div>
+            <div class="footer-info">
+                <p class="footer-copyright" data-i18n="footer_copy">&copy; 2026 Ahmed Taha. All rights reserved.</p>
+                <div class="footer-contact-links">
+                    <a href="tel:+20111555518"><i class="fa-solid fa-mobile-screen"></i> <span dir="ltr">+20 111 5555 18</span></a>
+                    <a href="https://wa.me/201115855518" target="_blank"><i class="fa-brands fa-whatsapp"></i> <span dir="ltr">+20 111 5855 518</span></a>
+                </div>
+            </div>
+            <a href="#home" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
