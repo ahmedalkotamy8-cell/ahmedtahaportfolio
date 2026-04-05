@@ -5,7 +5,8 @@ const translations = {
         nav_services: "Services",
         nav_clients: "Clients",
         nav_projects: "Projects",
-        nav_success: "Stories",
+        nav_portfolio: "Portfolio",
+        nav_pricing: "Pricing",
         nav_experience: "Experience",
         nav_contact: "Contact",
 
@@ -26,59 +27,58 @@ const translations = {
         about_stat_3_val: "Full-Funnel",
 
         skills_title: "Core Expertise",
-        skill_cat_1: "Performance Marketing",
-        skill_1_1: "Performance Marketing & Media Buying",
-        skill_1_2: "Full-Funnel Strategy (Awareness → Conversion)",
-        skill_1_3: "Lead Generation & Sales Campaigns",
-        skill_1_4: "ROI & ROAS Optimization",
-        skill_1_5: "Budget Scaling & Management",
-        skill_cat_2: "Analytics & Tracking",
-        skill_2_1: "Campaign Analysis & Data Reporting",
-        skill_2_2: "Conversion Tracking (GA4, GTM)",
-        skill_2_3: "Audience Research & Targeting",
-        skill_2_4: "A/B Testing & Creative Optimization",
-        skill_cat_3: "Leadership & Strategy",
-        skill_3_1: "Team Leadership & Training",
-        skill_3_2: "Marketing Strategy Development",
-        skill_3_3: "AI Tools For Ads Optimization and Reports",
+        skill_cat_1: "Performance & Growth Marketing",
+        skill_1_1: "Multi-Platform Media Buying (Meta, Google, TikTok, LinkedIn, Snapchat, X)",
+        skill_1_2: "Full-Funnel Marketing Strategies",
+        skill_1_3: "All Campaign Objectives (Especially Lead Gen & E-commerce)",
+        skill_1_4: "ROI & ROAS Maximization",
+        skill_1_5: "Profitable Budget Scaling",
+        skill_cat_2: "Analytics & Data Tracking",
+        skill_2_1: "Data Analysis & Performance Reporting",
+        skill_2_2: "Advanced Tracking (GA4 & GTM)",
+        skill_2_3: "Audience Research & Laser Targeting",
+        skill_2_4: "A/B Testing & Ad Creative Optimization",
+        skill_cat_3: "Strategy & Team Leadership",
+        skill_3_1: "Leading & Training Media Buying Teams",
+        skill_3_2: "Developing Scalable Growth Strategies",
+        skill_3_3: "Leveraging AI for Ads Automation",
         
         serv_title_main: "What I Do",
-        serv_1_title: "Performance Marketing Management",
-        serv_1_desc: "End-to-end execution of data-driven campaigns focused strictly on ROI, ROAS, and measurable revenue growth across all paid platforms.",
-        serv_2_title: "Full Funnel Strategy",
-        serv_2_desc: "Strategic development of customer journeys from awareness to retention, ensuring no money is left on the table at any stage.",
-        serv_3_title: "Lead Generation Systems",
-        serv_3_desc: "Building scalable engines that predictably deliver high-quality, pre-qualified leads directly to your sales teams.",
-        serv_4_title: "Campaign Scaling & Optimization",
-        serv_4_desc: "Taking winning campaigns and scaling them profitably by identifying bottlenecks and optimizing creative and targeting metrics.",
+        serv_1_title: "Performance Marketing",
+        serv_1_desc: "Executing end-to-end digital advertising campaigns across all platforms to generate high-quality leads and drive direct sales.",
+        serv_2_title: "Strategy & Marketing Consulting",
+        serv_2_desc: "Providing deep market research and building comprehensive go-to-market strategies to position your business for sustainable success.",
+        serv_3_title: "Team Training & Development",
+        serv_3_desc: "Empowering in-house teams through advanced hands-on training in media buying, tracking, and data-driven marketing tactics.",
+        serv_4_title: "Growth Leadership & ROI Maximization",
+        serv_4_desc: "Leading marketing operations to systematically scale your profits, optimize the sales funnel, and achieve the highest possible Return on Investment (ROI).",
 
         clients_title: "Trusted By",
         btn_all_clients: "View All Clients",
 
-        proj_title_main: "Selected Projects",
-        proj_1_tag: "Real Estate",
-        proj_1_title: "Campaign Scaling (Fifth Square)",
-        proj_1_desc: "Optimized campaigns for a major real estate project, improving lead quality and generating multi-million revenue.",
-        proj_2_tag: "Healthcare App",
-        proj_2_title: "Startup Growth Strategy",
-        proj_2_desc: "Built a full-funnel marketing strategy from the ground up for a UAE medical startup, achieving daily bookings.",
-        proj_3_tag: "E-Commerce & Services",
-        proj_3_title: "Multi-Industry Campaigns",
-        proj_3_desc: "Managed complex campaigns across e-commerce and real estate sectors reliably achieving strong 3–8x ROAS.",
-        btn_more_projects: "View More Projects",
+        port_title_main: "Selected Portfolio",
+        port_1_tag: "Real Estate",
+        port_1_title: "Campaign Scaling (Fifth Square)",
+        port_1_desc: "Optimized campaigns for a major real estate project, improving lead quality and generating multi-million revenue.",
+        port_2_tag: "Healthcare App",
+        port_2_title: "Startup Growth Strategy",
+        port_2_desc: "Built a full-funnel marketing strategy from the ground up for a UAE medical startup, achieving daily bookings.",
+        port_3_tag: "E-Commerce & Services",
+        port_3_title: "Multi-Industry Campaigns",
+        port_3_desc: "Managed complex campaigns across e-commerce and real estate sectors reliably achieving strong 3–8x ROAS.",
+        btn_full_portfolio: "View Full Portfolio",
 
-        succ_title: "Success Stories",
-        succ_1_title: "Scaling a Local E-commerce Brand",
-        succ_1_excerpt: "Achieved a 5x ROAS within the first 60 days by restructuring the funnel and optimizing creatives for conversion...",
-        succ_2_title: "Medical Startup Launch",
-        succ_2_excerpt: "Generated massive awareness and steady daily bookings from week 2 by identifying the core audience persona...",
-        succ_3_title: "Real Estate Lead Generation",
-        succ_3_excerpt: "Decreased Cost Per Lead by 45% while increasing the qualification rate for the sales team closing high-ticket units...",
-        succ_4_title: "B2B SaaS Growth",
-        succ_4_excerpt: "Built a predictable LinkedIn Ads engine that secured demos with enterprise clients leading to massive contracts...",
-        succ_5_title: "Fitness App Retention",
-        succ_5_excerpt: "Utilized retargeting and email marketing flows to reduce churn and double user lifetime value within 6 months...",
-        btn_read_stories: "Read Full Stories",
+        pricing_title: "Pricing & Inquiries",
+        pricing_1_title: "Campaign Management",
+        pricing_1_desc: "End-to-end full execution and management of your ad campaigns across multiple platforms focusing strictly on ROI.",
+        pricing_2_title: "Consulting & Training",
+        pricing_2_desc: "1-on-1 strategic consulting or team training sessions covering scaling logic, tracking, and advanced media buying.",
+        pricing_2_badge: "Hourly Rate",
+        pricing_3_title: "Marketing Strategy",
+        pricing_3_desc: "Comprehensive marketing strategy, deep market research, and full competitor analysis tailored to your startup or enterprise.",
+        pricing_4_title: "Additional Services",
+        pricing_4_desc: "Ad accounts setup, tracking pixels implementation, content ideation, ad scripts, and ad creatives design.",
+        btn_inquire: "Request a Quote",
 
         exp_title_main: "Experience Summary",
         exp_summary: "Over 9 years of hands-on expertise leading dynamic digital marketing teams, managing multi-million budgets, and driving scalable growth for premium agencies and high-ticket clients across the MENA region.",
@@ -104,7 +104,8 @@ const translations = {
         nav_services: "خدماتي",
         nav_clients: "العملاء",
         nav_projects: "المشاريع",
-        nav_success: "القصص",
+        nav_portfolio: "سابقة أعمال",
+        nav_pricing: "الأسعار",
         nav_experience: "الخبرات",
         nav_contact: "تواصل معي",
 
@@ -125,59 +126,58 @@ const translations = {
         about_stat_3_val: "مسار متكامل",
 
         skills_title: "الخبرات الأساسية",
-        skill_cat_1: "تسويق الأداء (Performance Marketing)",
-        skill_1_1: "تسويق الأداء وشراء الوسائط الإعلانية",
-        skill_1_2: "استراتيجية المسار المتكامل (من الوعي إلى التحويل)",
-        skill_1_3: "حملات المبيعات وتوليد العملاء المحتملين",
-        skill_1_4: "تحسين العائد على الاستثمار والإنفاق الإعلاني (ROI & ROAS)",
-        skill_1_5: "إدارة الميزانيات وتوسيع نطاق الحملات",
-        skill_cat_2: "التحليلات والتتبع",
-        skill_2_1: "تحليل الحملات وإعداد التقارير",
-        skill_2_2: "تتبع التحويلات (GA4, Google Tag Manager)",
-        skill_2_3: "أبحاث الجمهور واستهدافهم",
-        skill_2_4: "اختبارات A/B وتحسين المحتوى الإبداعي",
-        skill_cat_3: "القيادة والاستراتيجية",
-        skill_3_1: "قيادة وتدريب الفرق التسويقية",
-        skill_3_2: "تطوير استراتيجيات التسويق",
-        skill_3_3: "أدوات الذكاء الاصطناعي لتحسين الإعلانات",
+        skill_cat_1: "تسويق الأداء والنمو",
+        skill_1_1: "إدارة الحملات على مختلف المنصات (Meta, Google, TikTok, LinkedIn, Snapchat, X)",
+        skill_1_2: "بناء استراتيجيات تسويقية متكاملة (من الوعي للشراء)",
+        skill_1_3: "إدارة كافة أنواع الحملات (وخصوصاً توليد العملاء Lead Gen والمتاجر الإلكترونية)",
+        skill_1_4: "تحقيق أعلى عائد على الإنفاق الإعلاني (ROAS & ROI)",
+        skill_1_5: "توسيع حجم الحملات بأرباح مستقرة (Scaling)",
+        skill_cat_2: "تحليل البيانات وتتبع الأداء",
+        skill_2_1: "تحليل أداء الحملات وإصدار تقارير واضحة",
+        skill_2_2: "الربط التقني الدقيق وتتبع التحويلات (GA4 & GTM)",
+        skill_2_3: "فهم الجمهور واستهداف الشرائح الأكثر تفاعلاً",
+        skill_2_4: "اختبارات (A/B Testing) لتحسين الإعلانات المستمر",
+        skill_cat_3: "الاستراتيجية وإدارة الفِرق",
+        skill_3_1: "قيادة وتدريب فرق إدارة الحملات والتسويق",
+        skill_3_2: "بناء وتنفيذ خطط تسويقية قابلة للتوسع",
+        skill_3_3: "استخدام أدوات الذكاء الاصطناعي لتسريع العمل وتحسينه",
 
         serv_title_main: "ماذا أقدم؟",
-        serv_1_title: "إدارة تسويق الأداء",
-        serv_1_desc: "تنفيذ للحملات المبنية على البيانات بتركيز صارم على العائد على الاستثمار ونمو الإيرادات عبر جميع المنصات.",
-        serv_2_title: "استراتيجية المسار المتكامل",
-        serv_2_desc: "التطوير الاستراتيجي لرحلة العميل من الوعي وحتى الاحتفاظ به، لضمان أعلى مستوى من الاستفادة.",
-        serv_3_title: "أنظمة توليد العملاء",
-        serv_3_desc: "بناء محركات قابلة للتوسع لتقديم عملاء محتملين مجهزين وعالية الجودة بشكل مباشر لفرق المبيعات لديك.",
-        serv_4_title: "توسيع وتحسين الحملات",
-        serv_4_desc: "أخذ الحملات الرابحة وتوسيع نطاقها بربحية من خلال تحديد نقاط الضعف وتحسين الاستهداف والمحتوى.",
+        serv_1_title: "تسويق الأداء وإدارة الحملات",
+        serv_1_desc: "إدارة وتشغيل الحملات الإعلانية الرقمية عبر مختلف المنصات بهدف توليد العملاء المحتملين وزيادة المبيعات المباشرة للمتاجر.",
+        serv_2_title: "الاستشارات وبناء الاستراتيجيات",
+        serv_2_desc: "تقديم أبحاث تسويقية متعمقة، وبناء خطط استراتيجية متكاملة تضع شركتك على مسار قوي للنجاح والتفوق على المنافسين.",
+        serv_3_title: "التدريب والتطوير",
+        serv_3_desc: "تطوير ورفع كفاءة فرق التسويق الداخلية من خلال تدريب متقدم وعملي على إدارة الحملات الرقمية، والتتبع، وتحسين معدلات التحويل.",
+        serv_4_title: "قيادة النمو وتعظيم العائد",
+        serv_4_desc: "التوجيه القيادي لعملياتك التسويقية لتوسيع نطاق الأرباح بشكل منهجي، وتحقيق أعلى عائد ممكن على الإنفاق الإعلاني والاستثماري.",
 
         clients_title: "شركاء النجاح",
         btn_all_clients: "عرض جميع العملاء",
 
-        proj_title_main: "مشاريع مختارة",
-        proj_1_tag: "عقارات",
-        proj_1_title: "توسيع نطاق حملات (فيفث سكوير)",
-        proj_1_desc: "تحسين الحملات لمشروع عقاري ضخم، مما أدى لرفع جودة العملاء وتوليد إيرادات بملايين الجنيهات.",
-        proj_2_tag: "تطبيق رعاية صحية",
-        proj_2_title: "استراتيجية نمو شركة ناشئة",
-        proj_2_desc: "بناء استراتيجية كاملة من الصفر لشركة طبية ناشئة، وتحقيق حجوزات يومية مستمرة ومستدامة.",
-        proj_3_tag: "تجارة إلكترونية وخدمات",
-        proj_3_title: "حملات متعددة القطاعات",
-        proj_3_desc: "إدارة حملات بميزانيات عالية في قطاعات التجارة والعقارات مع تحقيق عائد كبير يتراوح بين 3-8 أضعاف.",
-        btn_more_projects: "عرض كافة المشاريع",
+        port_title_main: "سابقة أعمال مختارة",
+        port_1_tag: "عقارات",
+        port_1_title: "توسيع نطاق حملات (فيفث سكوير)",
+        port_1_desc: "تحسين الحملات لمشروع عقاري ضخم، مما أدى لرفع جودة العملاء وتوليد إيرادات بملايين الجنيهات.",
+        port_2_tag: "تطبيق رعاية صحية",
+        port_2_title: "استراتيجية نمو شركة ناشئة",
+        port_2_desc: "بناء استراتيجية كاملة من الصفر لشركة طبية ناشئة، وتحقيق حجوزات يومية مستمرة ومستدامة.",
+        port_3_tag: "تجارة إلكترونية وخدمات",
+        port_3_title: "حملات متعددة القطاعات",
+        port_3_desc: "إدارة حملات بميزانيات عالية في قطاعات التجارة والعقارات مع تحقيق عائد كبير يتراوح بين 3-8 أضعاف.",
+        btn_full_portfolio: "عرض سابقة الأعمال كاملة",
 
-        succ_title: "قصص النجاح",
-        succ_1_title: "توسيع متجر إلكتروني محلي",
-        succ_1_excerpt: "تحقيق عائد 5x خلال أول 60 يوماً عن طريق إعادة هيكلة مسار المبيعات وتحسين المحتوى الإبداعي للتحويل...",
-        succ_2_title: "إطلاق منصة طبية ناشئة",
-        succ_2_excerpt: "توليد وعي ضخم وحجوزات يومية مستقرة من الأسبوع الثاني عبر تحديد الشريحة المستهدفة الأدق...",
-        succ_3_title: "توليد عملاء للعقارات",
-        succ_3_excerpt: "تخفيض تكلفة العميل المحتمل بنسبة 45% مع زيادة نسبة التأهيل لفريق المبيعات الذي يغلق الصفقات الكبرى...",
-        succ_4_title: "نمو لشركة B2B SaaS",
-        succ_4_excerpt: "بناء محرك حملات موثوق على لينكد إن جلب عروض تقديمية مع عملاء شركات كبرى أدت لتعاقدات ضخمة...",
-        succ_5_title: "الاحتفاظ بمستخدمي تطبيق رياضي",
-        succ_5_excerpt: "استخدام حملات إعادة الاستهداف لتقليل التسرب ومضاعفة القيمة الدائمة للعميل خلال ستة أشهر...",
-        btn_read_stories: "قراءة القصص كاملة",
+        pricing_title: "الخدمات الإضافية والباقات",
+        pricing_1_title: "إدارة الحملات الإعلانية",
+        pricing_1_desc: "إدارة كاملة لحملاتك الإعلانية عبر المنصات المتعددة ومتابعة الأداء بشكل يومي بتركيز كامل على أهداف المبيعات والميزانية.",
+        pricing_2_title: "الاستشارات والتدريب",
+        pricing_2_desc: "جلسات استشارية استراتيجية وورش عمل تدريبية مخصصة لفريقك الداخلي على أحدث تكتيكات تسويق الأداء.",
+        pricing_2_badge: "تدريب بالساعة (Hourly)",
+        pricing_3_title: "الاستراتيجية وبحوث السوق",
+        pricing_3_desc: "عمل خطة تسويق تفصيلية واستراتيجية متكاملة تشمل بحثاً معمقاً للسوق مع تحليل نقطي للمنافسين.",
+        pricing_4_title: "خدمات شاملة أخرى",
+        pricing_4_desc: "إنشاء الحسابات الإعلانية، تسطيب البيكسل والأكواد، أفكار المحتوى وسكريبت الفيديوهات، وطلب تصميمات إعلانية.",
+        btn_inquire: "طلب عرض سعر",
 
         exp_title_main: "ملخص الخبرات",
         exp_summary: "أكثر من 9 سنوات من الخبرة العملية في قيادة فرق التسويق الرقمي وإدارة ميزانيات ضخمة ودفع النمو المستدام للوكالات الرائدة وكبار العملاء في جميع أنحاء منطقة الشرق الأوسط.",
@@ -386,23 +386,201 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Basic Form Submission Prevent ---
+    // --- Web3Forms Email Implementation ---
     const contactForm = document.getElementById('contactForm');
     if(contactForm) {
-        contactForm.addEventListener('submit', (e) => {
+        contactForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const btn = contactForm.querySelector('button[type="submit"]');
-            const originalText = btn.innerHTML;
             
-            btn.innerHTML = currentLang === 'ar' ? '<i class="fa-solid fa-check"></i> تم إرسال الرسالة!' : '<i class="fa-solid fa-check"></i> Message Sent!';
+            // ⚠️ ضــع مفتاحك الخاص هـنـا / PUT YOUR ACCESS KEY BELOW
+            // احصل عليه مجاناً بوضع إيميلك في موقع: https://web3forms.com
+            const ACCESS_KEY = "9c5dd4ae-f5bb-40f7-9fcb-a4d8db85b00e"; 
             
-            btn.style.backgroundColor = 'var(--accent-secondary)';
-            contactForm.reset();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // تحذير في حال لم يتم وضع المفتاح
+            if(ACCESS_KEY === "YOUR_ACCESS_KEY_HERE" || !ACCESS_KEY) {
+                alert(currentLang === 'ar' ? "💡 يرجى وضع مفتاح Web3Forms في ملف script.js لنجاح إرسال الإيميل." : "💡 Please insert your Web3Forms access key in script.js.");
+                return;
+            }
+
+            // علامة التحميل (Loading)
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+            btn.style.opacity = '0.8';
+            btn.disabled = true;
+
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        access_key: ACCESS_KEY,
+                        name: name,
+                        email: email,
+                        message: message,
+                        from_name: "Ahmed Taha Portfolio",
+                        subject: `New Lead: ${name} sent a message!`
+                    })
+                });
+
+                const json = await response.json();
+
+                if (response.status === 200) {
+                    btn.innerHTML = currentLang === 'ar' ? '<i class="fa-solid fa-check"></i> تم إرسال الرسالة!' : '<i class="fa-solid fa-check"></i> Message Sent!';
+                    btn.style.backgroundColor = 'var(--accent-secondary)';
+                    contactForm.reset();
+                } else {
+                    console.log(json);
+                    btn.innerHTML = currentLang === 'ar' ? 'فشل الإرسال!' : 'Error Sending!';
+                    btn.style.backgroundColor = '#e74c3c';
+                }
+            } catch (error) {
+                console.log(error);
+                btn.innerHTML = currentLang === 'ar' ? 'فشل الإرسال!' : 'Error Sending!';
+                btn.style.backgroundColor = '#e74c3c';
+            }
             
+            // إرجاع الزر لحالته الأصلية بعد 4 ثوانٍ
             setTimeout(() => {
                 btn.innerHTML = translations[currentLang]['form_btn'];
                 btn.style.backgroundColor = '';
-            }, 3000);
+                btn.style.opacity = '1';
+                btn.disabled = false;
+            }, 4000);
         });
     }
+
+    // --- Auto-generate client names from alt tags ---
+    document.querySelectorAll('.client-logo-box').forEach(box => {
+        const img = box.querySelector('img');
+        if(img && img.alt) {
+            const nameEl = document.createElement('div');
+            nameEl.className = 'client-name';
+            nameEl.innerText = img.alt;
+            box.appendChild(nameEl);
+        }
+    });
+
+    // --- Extended Translations for 10 Projects ---
+    const enProj = {}, arProj = {};
+    for(let i = 4; i <= 10; i++) {
+        enProj[`port_${i}_tag`] = "Project Tag " + i;
+        enProj[`port_${i}_title`] = "Project Title " + i;
+        enProj[`port_${i}_desc`] = "Brief description for project " + i + ".";
+        enProj[`port_${i}_problem`] = "Problem description placeholder...";
+        enProj[`port_${i}_solution`] = "Solution executed placeholder...";
+        enProj[`port_${i}_results`] = "Results achieved placeholder...";
+        
+        arProj[`port_${i}_tag`] = "تصنيف المشروع " + i;
+        arProj[`port_${i}_title`] = "عنوان المشروع " + i;
+        arProj[`port_${i}_desc`] = "وصف مختصر للمشروع رقم " + i + ".";
+        arProj[`port_${i}_problem`] = "وصف المشكلة (عينة تجريبية)...";
+        arProj[`port_${i}_solution`] = "الحل الذي تم استخدامه (عينة تجريبية)...";
+        arProj[`port_${i}_results`] = "النتائج بالأرقام (عينة تجريبية)...";
+    }
+    
+    // Add problems, solutions, results for existing 3
+    Object.assign(enProj, {
+        port_1_problem: "High CPL and low lead quality.",
+        port_1_solution: "Restructured full funnel and targeted high-intent keywords.",
+        port_1_results: "Decreased CPL by 45% and generated multi-million revenue.",
+        port_2_problem: "No initial brand awareness or sales.",
+        port_2_solution: "Launched multi-platform awareness scaling into conversion retargeting.",
+        port_2_results: "Achieved steady daily medical bookings.",
+        port_3_problem: "Inconsistent ROAS across platforms.",
+        port_3_solution: "Implemented AI automated bidding and dynamic creatives.",
+        port_3_results: "Stabilized multi-industry ROAS between 3x–8x."
+    });
+    
+    Object.assign(arProj, {
+        port_1_problem: "ارتفاع تكلفة العميل المحتمل (CPL) وضعف الجودة.",
+        port_1_solution: "إعادة هيكلة مسار المبيعات واستهداف العملاء ذوي النية الشرائية العالية.",
+        port_1_results: "تقليل التكلفة بنسبة 45% وتحقيق إيرادات بالملايين.",
+        port_2_problem: "عدم وجود وعي بالعلامة التجارية أو مبيعات مسبقة.",
+        port_2_solution: "إطلاق حملات توعية مكثفة تليها حملات إعادة استهداف مباشر للتحويل.",
+        port_2_results: "تحقيق حجوزات يومية مستقرة ومتزايدة.",
+        port_3_problem: "تذبذب في عائد الإنفاق (ROAS) عبر المنصات.",
+        port_3_solution: "استخدام أدوات الذكاء الاصطناعي لاختبار وتعديل الإعلانات تلقائياً.",
+        port_3_results: "استقرار العائد بين 3 إلى 8 أضعاف طوال العام."
+    });
+    
+    Object.assign(translations.en, enProj);
+    Object.assign(translations.ar, arProj);
+    
+    // Additional Global Translations
+    translations.en['lbl_problem'] = "The Challenge";
+    translations.en['lbl_solution'] = "The Solution";
+    translations.en['lbl_results'] = "The Results";
+    translations.en['lbl_industry'] = "Industry";
+    
+    translations.ar['lbl_problem'] = "التحدي / المشكلة";
+    translations.ar['lbl_solution'] = "الحل والاستراتيجية";
+    translations.ar['lbl_results'] = "النتائج والأرقام";
+    translations.ar['lbl_industry'] = "مجال النشاط";
+
+    // Re-run translations just for extended properties safely
+    updateContent(currentLang);
+
+    // --- Carousel Logic for Portfolio ---
+    const track = document.getElementById('port-track');
+    const prevBtn = document.getElementById('port-prev');
+    const nextBtn = document.getElementById('port-next');
+    
+    if (track && prevBtn && nextBtn) {
+        let currentIndex = 0;
+        
+        const updateSliderPosition = () => {
+             const slideWidth = track.querySelector('.carousel-slide').offsetWidth;
+             const gap = 0; // if you have gap, calculate it, else 0
+             track.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+        };
+        
+        nextBtn.addEventListener('click', () => {
+            const slides = track.querySelectorAll('.carousel-slide');
+            if (currentIndex < slides.length - 1) {
+                currentIndex++;
+                updateSliderPosition();
+            }
+        });
+        
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateSliderPosition();
+            }
+        });
+        
+        window.addEventListener('resize', () => {
+            currentIndex = 0;
+            updateSliderPosition();
+        });
+    }
+
+    // --- Dynamic Project Details Populator ---
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = urlParams.get('id'); // e.g., 'proj_1'
+    
+    if (projectId && document.getElementById('dyn-proj-title')) {
+        const pNum = projectId.replace('proj_', ''); // gets '1', '2', etc.
+        const setTrans = (selector, key) => {
+            const el = document.querySelector(selector);
+            if(el) {
+                el.innerText = translations[currentLang][`port_${pNum}_${key}`] || translations[currentLang][key];
+                el.setAttribute('data-i18n', `port_${pNum}_${key}`); // for language toggle support
+            }
+        };
+        
+        setTrans('#dyn-proj-title', 'title');
+        setTrans('#dyn-proj-tag', 'tag');
+        setTrans('#dyn-proj-problem', 'problem');
+        setTrans('#dyn-proj-solution', 'solution');
+        setTrans('#dyn-proj-results', 'results');
+    }
+
 });
