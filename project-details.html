@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Taha | Project Details</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Latin & Arabic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="hero_title">Ahmed <span class="text-gradient">Taha</span></a>
+            <nav class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="index.html#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+                    <li><a href="index.html#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                    <li><a href="index.html#clients" class="nav-link" data-i18n="nav_clients">Clients</a></li>
+                    <li><a href="index.html#portfolio" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="index.html#pricing" class="nav-link" data-i18n="nav_pricing">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle">عربي</button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main style="padding-top: 120px; min-height: 80vh; padding-bottom: 50px;">
+        <div class="container">
+            
+            <div class="proj-header text-center animate-on-scroll">
+                <div class="proj-meta">
+                    <i class="fa-solid fa-tag" style="margin-right: 5px;"></i> 
+                    <span id="dyn-proj-tag">Project Tag</span>
+                </div>
+                <h1 id="dyn-proj-title" style="font-size: 2.5rem; margin-bottom: 1rem;">Project Title</h1>
+            </div>
+
+            <div class="proj-hero animate-on-scroll">
+                <img src="assets/project.png" alt="Project Cover" id="dyn-proj-img">
+            </div>
+
+            <div class="row" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+                <!-- Problem / Solution Area -->
+                <div style="flex: 1; min-width: 300px;" class="animate-on-scroll">
+                    <div class="proj-content-block">
+                        <h3 data-i18n="lbl_problem"><i class="fa-solid fa-circle-exclamation"></i> The Challenge</h3>
+                        <p id="dyn-proj-problem" style="color: var(--text-secondary); line-height: 1.8;">Loading problem statement...</p>
+                    </div>
+
+                    <div class="proj-content-block">
+                        <h3 data-i18n="lbl_solution"><i class="fa-solid fa-lightbulb"></i> The Solution</h3>
+                        <p id="dyn-proj-solution" style="color: var(--text-secondary); line-height: 1.8;">Loading solution strategy...</p>
+                    </div>
+                </div>
+
+                <!-- Results Sidebar -->
+                <div style="flex: 0 0 350px; width: 100%;" class="animate-on-scroll">
+                    <div class="proj-content-block proj-results text-center" style="height: 100%;">
+                        <h3 data-i18n="lbl_results" style="justify-content: center;"><i class="fa-solid fa-chart-line"></i> The Results</h3>
+                        <div style="margin-top: 2rem;">
+                            <p id="dyn-proj-results" style="font-size: 1.1rem; font-weight: 600; color: var(--text-primary); line-height: 1.8;">Loading results and statistics...</p>
+                        </div>
+                        <div style="margin-top: 3rem;">
+                            <a href="projects.html" class="btn btn-primary" style="width: 100%;">
+                                <i class="fa-solid fa-arrow-left" style="margin-right: 8px;"></i> <span data-i18n="nav_portfolio">Back to Portfolio</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo" data-i18n="hero_title">Ahmed <span>Taha</span></a>
+                <p data-i18n="footer_role">Performance Marketing Leader</p>
+            </div>
+            <div class="footer-info">
+                <p class="footer-copyright" data-i18n="footer_copy">&copy; 2026 Ahmed Taha. All rights reserved.</p>
+                <div class="footer-contact-links">
+                    <a href="tel:+20111555518"><i class="fa-solid fa-mobile-screen"></i> <span dir="ltr">+20 111 5555 18</span></a>
+                    <a href="https://wa.me/201115855518" target="_blank"><i class="fa-brands fa-whatsapp"></i> <span dir="ltr">+20 111 5855 518</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
